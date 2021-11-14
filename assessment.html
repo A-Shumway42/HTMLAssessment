@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTMLAssessment</title>
+</head>
+<body>
+  <h2>TEXT</h2>
+  <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit.
+  Sed<br> blandit, eros sit amet euismod tincidunt, nisl leo vestibulum
+dui, sed<br> tincidunt lacus ligula eu sapien. Proin at diam tincidunt,
+tincidunt<br> ex at, venenatis nisl.</p>
+  <blockquote><em><strong>Integer</strong> auctor est ac fringilla euismod.
+  Donec laoreet<br>urna vel diam blandit venenatis. Nam fermentum turpis
+  a<br>mauris condimentum, vitae faucibus leo commodo.</em>
+  </blockquote>
+  <p><strong>Vestibulum</strong> elit nisi, posuere ut hendrerit a, molestie eu
+  leo. Donec <br>sit amet ullamcorper turpis. Mauris eu tellus blandit turpis<br>
+  fermentum dapibus eget sed ex. Vivamus auctor in velit ac suscipit.<br> In hac
+  habitasse platea dictumst.</p>
+<h2>TABLE</h2>
+<table border="1">
+  <thead>
+    <p>Scores by Quarter</p>
+    <tr style="vertical-align:top">
+      <th scope="col"height="25"><strong>Team Name</strong></th>
+      <th scope="col"colspan="2"width="100"><strong>First Half</strong></th>
+      <th scope="col"colspan="2"width="100"><strong>Second Half</strong></th>
+      <th scope="col"width="50"><strong></strong></th>
+    </tr>
+    <tr>
+      <th></th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th>Final</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">Panthers</td>
+      <td style="text-align:right">7</td><td style="text-align:right">3</td><td style="text-align:right">0</td><td style="text-align:right">7</td><td style="text-align:right">17</td>
+    </tr>
+    <tr>
+      <td scope="row">Broncos</td>
+      <td style="text-align:right">0</td><td style="text-align:right">6</td><td style="text-align:right">3</td><td style="text-align:right">6</td><td style="text-align:right">15</td>
+    </tr
+    <tfoot>
+      <tr>
+        <td><strong>Total</strong></td>
+        <td style="text-align:right"><strong>7</strong></td><td style="text-align:right"><strong>9</strong></td>
+        <td style="text-align:right"><strong>3</strong></td><td style="text-align:right"><strong>13</strong></td>
+        <td style="text-align:right"><strong>32</strong></td>
+      </tr>
+    </tfoot>
+  </tbody>
+</table>
+<h2>LIST</h2>
+  <ul>
+    <img width="95" height="52" src="https://sf.ezoiccdn.com/ezoimgfmt/www.schemecolor.com/wp-content/uploads/carolina-panthers-logo-colors.png?ezimgfmt=rs:110x60/rscb1/ng:webp/ngcb1" class="attachment-full size-full wp-post-image ezlazyloaded" alt="Carolina Panthers Team Logo with colors" loading="lazy" ezimgfmt="rs rscb1 src ng ngcb1" data-ezsrc="https://sf.ezoiccdn.com/ezoimgfmt/www.schemecolor.com/wp-content/uploads/carolina-panthers-logo-colors.png?ezimgfmt=rs:110x60/rscb1/ng:webp/ngcb1" ezoid="0.48093681443290515"/>
+    <li><a href="https://www.panthers.com/">Carolina Panthers</a>
+      <ul>Coach: Matt Rhule</ul>
+      <ul>QB:
+        <ol>1. Cam Newton</ol>
+      </ul>
+    </li>
+    <img class="image" width="100" height="100" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0024/8641/brand.gif?itok=J1UAXdsc" alt="Logo of Denver Broncos"/>
+    <li><a href="https://www.denverbroncos.com/">Denver Broncos</a>
+      <ul>Coach: Vic Fangio</ul>
+      <ul>QB:
+        <ol>1. Teddy Bridgewater</ol>
+      </ul>
+    </li>
+  </ul>
+
+<h2>FORM</h2>
+<form>
+  <label for="Enter your first name.">First Name:</label>
+  <input type="text" name="first-text-field" value="Enter your first name.">
+  <label for="Enter your last name.">Last Name:</label>
+  <input type="text" name="second-text-field" value="Enter your last name.">
+  <br><br>
+  <label for="sports">Favorite Sport:</label>
+  <select class="sports" name="sports">
+    <option value="football">Football</option>
+    <option value="soccer">Soccer</option>
+    <option value="basketball">Basketball</option>
+    <option value="lacrosse">Lacrosse</option>
+    <option value="track">Track</option>
+  </select>
+  <br>
+  <p>I have:
+  <label for="attended">Attended</label>
+  <input type="checkbox" name="choice" value="attended" id="attended">
+  <label for="played">Played</label>
+  <input type="checkbox" name="choice" value="played" id="played">
+  <label for="coached">Coached</label>
+  <input type="checkbox" name="choice" value="coached" id="coached">
+  <label for="beton">Bet on</label>
+  <input type="checkbox" name="choice" value="beton" id="beton">
+  this sport.</p>
+  <p>For this sport I prefer the:
+  <label for="amateur">Amateur</label>
+  <input type="radio" name="choice" value="amateur" id="amateur">
+  <label for="college">College</label>
+  <input type="radio" name="choice" value="college" id="college">
+  <label for="professional">Professional</label>
+  <input type="radio" name="choice" value="professional" id="professional">
+  level.</p>
+  <input type="submit" name="submitchoice" value="Submit">
+  </form>
+</body>
+</html>
